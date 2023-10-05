@@ -1,6 +1,12 @@
 {
+  "name": "razorpay-clone",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "vite"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
@@ -9,6 +15,6 @@
     "vite": "^4.3.5"
   },
   "dependencies": {
-    "feather": "^0.0.5"
-  }
+    "feather":"^0.0.5"
+}
 }
